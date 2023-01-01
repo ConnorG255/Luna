@@ -2,3 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    background-color: rgb(15 23 42);
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  ul {
+    list-style-type:circle;
+  }
+  li{
+    list-style-type: square;
+  }
