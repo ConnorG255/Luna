@@ -27,9 +27,11 @@ export default function Home() {
 
    
   return (
+    <>
+    <title> Luna - Markdown Editor</title>
     <div className='w-95% h-screen bg-slate-900 text-amber-200'>
       <div className='h-20 w-full flex justify-start mt-0 bg-indigo-900'>
-        <h1>🌕 Luna</h1>
+        <h1>🌙 Luna</h1>
         
       </div>
 
@@ -48,6 +50,6 @@ export default function Home() {
          
           </div>
     </div>
- 
+    </>
   )
 }
